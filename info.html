@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>SapanJyoti Kaur Info </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<header>
+    <img src="logo.jpg" alt="logo"/>
+    <h3>Info</h3>
+    <br>
+</header>
+
+<body>
+    <div class="link">
+		<h2><a href="honesty.html">Honesty</a></h2>
+		<h2><a href="info.html">Info</a></h2>
+		<h2><a href="reflection.html">Reflection</a></h2>
+		
+	</div>
+   
+</body>
+
+<h1>Application</h1>
+    <div class = "body">
+        <h1>Sign Form</h1><br><br>
+        
+        <form action="https://httpbin.org/post" target="_blank" method="post" name="signup" onsubmit="return error()">
+            <label for="fn">First Name</label><br>
+            <input type="text" name="fn" id="fn" placeholder = "Elon" pattern="^[A-Z][a-z]{0,}$" required><br>
+            <label for="ln">Last Name</label><br>
+            <input type="text" name="ln" id="ln" placeholder = "Musk" pattern="^[A-Z][a-z]{0,}$" required><br><br>
+
+            <label for="psw">Password</label><br>
+            <input type="password" name="psw" id="psw" required><br>
+            <label for="psw2">Re-Enter Password</label><br>
+            <input type="password" name="psw2" id="psw2" required><br><br>
+
+            <label for="un">Username</label><br>
+            <input type="text" name="un" id="un" required><br><br>
+
+            Education Status<br><br>
+            <input type="radio" name="education" id="grad" required>
+            <label for="grad">Graduated</label><br>
+            <input type="radio" name="education" id="enrol" required>
+            <label for="enrol">Enrolled</label><br>
+            <input type="radio" name="education" id="not-grad" required>
+            <label for="not-grad">Not Graduated</label><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="someone@hotmail.com" required><br><br>
+
+            <label for="age" required>Age</label><br>
+            <input type="number" name="age" id="age" min="18" max="60" required><br><br>
+
+            <input type="submit" id="submit" value="Submit">
+            <input type="reset">
+            <input type="hidden" name="lastname" id="lastname" value="Kaur" />
+            <input type="hidden" name="studentId" id="studentId" value="155825201" />
+    </form>
+        
+    <div class="errors">
+        <h2>Errors</h2><br>
+        <aside>
+
+        </aside>
+            
+       
+    </div>
+    </div>
+  
+    <footer>
+        <div>
+            &copy; 2021 Sapan Jyoti Kaur
+            <a href=""></a>
+        </div>
+      </footer>
+    <script src="info.js"></script>
+
+
+
+</html>
+

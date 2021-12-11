@@ -1,0 +1,139 @@
+
+
+html{
+    background-color: #54e997;  
+}
+
+.body{
+    margin: 30px 15px;
+    width: 900px;
+    height: 1400px;
+    padding:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: #ffffff;
+    color: rgb(15, 15, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 4px rgb(10, 10, 10);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto;   
+    border: solid 1px ;
+}
+.honesty{
+    padding:40px;
+   text-align: left;
+   text-align: center;
+   background-color: #8d7b7b;
+   margin: 0;
+   padding: 200px;
+   color: rgb(5, 8, 1);
+   font-size: 50px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border-style: ridge;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #5ae283;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin: 10px;
+}
+
+input[type="number"]{
+    width: auto;
+}
+
+input[type="submit"]{
+    width: auto;
+    color: white;
+    border: none;
+    background-color: #2AB567;
+    text-align: center;
+    padding: 14px 20px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color: #229152;
+    cursor: pointer;
+}
+
+input[type="reset"]{
+    width: auto;
+    color: white;
+    border: none;
+    background-color: #737373;
+    text-align: center;
+    padding: 14px 20px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover{
+    background-color: #ff1a1a;
+    cursor: pointer;
+}
+
+.errors{
+    margin-left: 500px;
+    margin-right: 15px;
+
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+h1{font-size: 50px; text-align: center;}
+h3{
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 10px;
+    display: inline-block;
+    position:absolute;
+}
+
+.link{
+    margin-top: 10px;
+}
+
+.reflect{
+    background-color: #7bb1a1;
+    margin: 0;
+    padding: 200px;
+    color: rgb(5, 8, 1);
+    font-size: 30px;
+    text-align: left;
+}
+
+
+aside:hover{
+    background-color: rgb(184, 41, 22);
+}
+
+img {
+        max-width: 40px;
+        display: inline-block;
+        margin: 5px 10px;
+        position:relative;
+}    
+a.menu_link:hover, a.menu_link:active, a.active_link{ 
+        background-color:  #0c7408;
+}
+    
+    
